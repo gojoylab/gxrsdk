@@ -80,4 +80,4 @@ Project Settings > Quality > V Sync Count | Don't Sync
 - Disconnect the computing unit with your PC, and then connect it to the glasses.
 - If it is the first time you connect the glass to mobile device, you need to authrize usb permission to xrcore service.
 - If it is the first time you run this app, you need to authrize the app permission
-- Launch the app, you can use mobile device as a controller. `HOME` key for recenter, `APP` key to appear exit app Window. `TRIGGER` key to select object, hold `TRIGGER` and move the device for drag moving objects
+- Launch the app, you can use mobile device as a 3DoF controller if you set TXRInput Raycast mode to `Laser`. `HOME` key for recenter, `APP` key to appear exit app Window. `TRIGGER` key to select object, hold `TRIGGER` and move the device for drag moving objects. If TXRInput Raycast mode to `Gaze`, use HMD as 3DoF tracking. 
